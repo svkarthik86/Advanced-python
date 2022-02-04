@@ -1,2 +1,2 @@
-# Advance-Python-Numpy
+# Advance-Python
 Advance-Python
