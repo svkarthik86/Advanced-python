@@ -1,0 +1,11 @@
+Q1.Data science problems on reading, concatenating, Data manipulation, and saving Data.
+
+In the Data Science project, for analyzing climate data to predict corp yield from various stations, climate data are captured from ten various stations ie.climate_data_station1.csv to climate_data_station10.csv
+as Data analytics you have to read all files generated from stations and concatenate all files into one single data.
+and then calculate corp yield.
+for calculating the corp yield as a weighted sum of the temperature, rainfall, and humidity
+yield_of_corp  = w1 * temperature + w2 * rainfall + w3 * humidity
+w1, w2, w3 = 0.3, 0.2, 0.5
+
+using the above information to generate yield_of_corp data and then concatenate yield_of_corp as the last column in climate_data.
+finally, save the result to climate_result.csv
